@@ -84,8 +84,8 @@ p.rights {
   position: fixed;
   color: #FFFFCC;
   font-size: 0.875rem;
-  top: 800px;
-  left: 1270px;
+  bottom: 10px;
+  right: 30px;
 }
 
 
@@ -483,6 +483,7 @@ https://digipress.info/tech/opening-loading-shutter-with-pure-css/
 
   .wrapper2 {
     display: block;
+    margin-top: 20px;
   }
 
   .google-map {
@@ -491,7 +492,8 @@ https://digipress.info/tech/opening-loading-shutter-with-pure-css/
     overflow: hidden;
     width: 100% !important;
     height: 100% !important;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    margin: 0 auto;
   }
 
   .google-map iframe {
@@ -500,14 +502,6 @@ https://digipress.info/tech/opening-loading-shutter-with-pure-css/
     height: 100% !important;
   }
 
-
-  .instagram-media {
-    width: 100%;
-  }
-
-  #news {
-    position: static;
-  }
 
   .page-title {
     font-size: 2.3rem;
@@ -539,6 +533,12 @@ https://digipress.info/tech/opening-loading-shutter-with-pure-css/
   .wrapper3 {
     grid-template-columns: 1fr 1fr;
     gap: 5px;
+  }
+
+  .insta {
+    padding-left: 10px;
+    padding-bottom: 30px;
+    padding-top: 20px;
   }
 
 }
