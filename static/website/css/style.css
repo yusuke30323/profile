@@ -56,7 +56,8 @@ img{
 .home-page h1 {
   padding-top: 20px;
   font-size: 2.5rem;
-  font-family: 'century gothic'
+  font-family: 'century gothic';
+  color: #FFFFCC;
 }
 
 /*
@@ -88,7 +89,7 @@ p.instalogo img {
 */
 
 .main-nav a {
-  color: #432;
+  color: #FFFFCC;
 }
 
 .main-nav a:hover {
@@ -140,7 +141,7 @@ p.rights {
 */
 
 .profile-nav a {
-  color: #432;
+  color: #FFFFCC;
 }
 
 .profile-nav a:hover {
@@ -208,7 +209,7 @@ p.rights {
 }
 
 .sub-nav a {
-  color: #432;
+  color: #FFFFCC;
 }
 
 .sub-nav a:hover {
@@ -226,7 +227,8 @@ p.rights {
 .sub-header h1 {
   padding-top: 10px;
   font-size: 2.5rem;
-  font-family: 'century gothic'
+  font-family: 'century gothic';
+  color: #FFFFCC;
 }
 
 #news {
@@ -242,7 +244,8 @@ p.rights {
   text-align: center;
   font-weight: normal;
   text-transform: uppercase;
-  font-family: 'century gothic'
+  font-family: 'century gothic';
+  color: #FFFFCC;
 }
 
 .big-bg1 {
@@ -265,7 +268,7 @@ p.rights {
   position: fixed;
   right: 0;
   bottom: 0;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 #page_top a{
   position: relative;
@@ -279,7 +282,7 @@ p.rights {
   font-weight: 900;
   content: '\f102';
   font-size: 25px;
-  color: #3f98ef;
+  color: black;
   position: absolute;
   width: 25px;
   height: 25px;
@@ -301,7 +304,7 @@ p.rights {
   left: 0;
   margin: auto;
   text-align: center;
-  color: #3f98ef;
+  color: black;
 }
 
 
@@ -320,7 +323,7 @@ footer {
 }
 
 footer p {
-  color: #fff;
+  color: #FFFFCC;
   font-size: 0.875rem;
 }
 
