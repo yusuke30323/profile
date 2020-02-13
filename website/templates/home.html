@@ -20,27 +20,26 @@
     </section>
     <section class="container">
       <div id='home' class='big-bg' style="background-image: url({% static 'website/img/img_26.jpg' %});">
-        <div class="home-page wrapper">
-          <h1>Yusuke Kono</h1>
-          <!--<h2>河野　友祐</h2>-->
-          <nav>
-            <ul class="main-nav">
-              <li><a href="{% url 'home' %}">HOME</a></li>
-              <li><a href="{% url 'profile' %}">PROFILE</a></li>
-              <li><a href="{% url 'news' %}">PICTURES</a></li>
-              <li><a href="{% url 'contact' %}">CONTACT</a></li>
-            </ul>
-          </nav>
-          <p class='instalogo'>
-            <a href='https://www.instagram.com/yusuke30323'>
-              <img src="{% static 'website/img/img_ins.png' %}" alt="" width='25' height='25'>
-            </a>
-          </p>
-          <p class='rights'>
-            <small>&copy; 2020 Yusuke Kono</small>
-          </p>
+            <div class="home-page wrapper">
+              <h1>Yusuke Kono</h1>
+              <nav>
+                <ul class="main-nav">
+                  <li><a href="{% url 'home' %}">HOME</a></li>
+                  <li><a href="{% url 'profile' %}">PROFILE</a></li>
+                  <li><a href="{% url 'news' %}">PICTURES</a></li>
+                  <li><a href="{% url 'contact' %}">CONTACT</a></li>
+                </ul>
+              </nav>
+              <p class='instalogo'>
+                <a href='https://www.instagram.com/yusuke30323'>
+                  <img src="{% static 'website/img/img_ins.png' %}" alt="" width='25' height='25'>
+                </a>
+              </p>
+              <p class='rights'>
+                <small>&copy; 2020 Yusuke Kono</small>
+              </p>
+            </div>
         </div>
-      </div>
     </section>
   </body>
 </html>

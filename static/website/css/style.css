@@ -60,16 +60,6 @@ img{
   color: #FFFFCC;
 }
 
-/*
-.page-header h2 {
-  padding-top: 20px;
-  font-size: 1.3rem;
-  writing-mode: vertical-rl;
-  margin-left: 1150px;
-  font-family: 'century gothic'
-}
-*/
-
 p.instalogo img {
   margin-left: 1150px;
 }
@@ -82,12 +72,6 @@ p.instalogo img {
   list-style: none;
 }
 
-/*
-.main-nav li {
-  margin-left: 36px;
-}
-*/
-
 .main-nav a {
   color: #FFFFCC;
 }
@@ -98,7 +82,7 @@ p.instalogo img {
 
 p.rights {
   position: fixed;
-  color: #fff;
+  color: #FFFFCC;
   font-size: 0.875rem;
   top: 800px;
   left: 1270px;
@@ -114,10 +98,11 @@ p.rights {
 .box {
 	overflow:auto;
 	width:400px; height:510px;
-	padding:5px;
+	padding:10px;
 	border:2px #ffffff;
 	color: #432;
-	background-color: rgba(212, 186, 159,0.6);
+	background-color: #FFFFCC;
+  opacity: 0.7;
 	line-height:2em;
   margin: 0 auto;
 }
@@ -133,12 +118,6 @@ p.rights {
   left: 75px;
   list-style: none;
 }
-
-/*
-.main-nav2 li {
-  margin-left: 36px;
-}
-*/
 
 .profile-nav a {
   color: #FFFFCC;
@@ -156,9 +135,8 @@ p.rights {
 
 /* contact.html */
 .wrapper2 {
-  display: flex;
-  justify-content: space-between;
-  padding: 2% 2%;
+  position: block;
+  margin-bottom: 50px;
 }
 
 .iframe {
@@ -166,12 +144,12 @@ p.rights {
 }
 
 .google-map {
-  width: 48%;
+  margin-left: 310px;
+  margin-bottom: 50px;
 }
 
-
-.instagram-media {
-  width: 48%;
+.insta {
+  padding-left: 440px;
 }
 
 
@@ -184,9 +162,12 @@ p.rights {
 /* news.html */
 .wrapper3{
   display: grid;
-  gap: 26px;
+  gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   margin: 2%;
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 
@@ -231,14 +212,6 @@ p.rights {
   color: #FFFFCC;
 }
 
-#news {
-  height: 230px;
-  margin-bottom: 0px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
 .page-title {
   font-size: 5rem;
   text-align: center;
@@ -250,8 +223,11 @@ p.rights {
 
 .big-bg1 {
   background-size: cover;
-  background-position: 30% 63%;
-  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
 }
 
 
@@ -266,10 +242,11 @@ p.rights {
   width: 90px;
   height: 90px;
   position: fixed;
-  right: 0;
-  bottom: 0;
+  right: 10px;
+  bottom: 10px;
   opacity: 0.8;
 }
+
 #page_top a{
   position: relative;
   display: block;
@@ -277,12 +254,13 @@ p.rights {
   height: 90px;
   text-decoration: none;
 }
+
 #page_top a::before{
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   content: '\f102';
   font-size: 25px;
-  color: black;
+  color: #FFFFCC;
   position: absolute;
   width: 25px;
   height: 25px;
@@ -293,6 +271,7 @@ p.rights {
   margin: auto;
   text-align: center;
 }
+
 #page_top a::after{
   content: 'PAGE TOP';
   font-size: 13px;
@@ -304,7 +283,7 @@ p.rights {
   left: 0;
   margin: auto;
   text-align: center;
-  color: black;
+  color: #FFFFCC;
 }
 
 
@@ -315,7 +294,7 @@ p.rights {
 
 
 
-/* footer */
+/* footer
 footer {
   background: black;
   text-align: center;
@@ -326,6 +305,9 @@ footer p {
   color: #FFFFCC;
   font-size: 0.875rem;
 }
+ */
+
+
 
 
 
@@ -465,6 +447,11 @@ https://digipress.info/tech/opening-loading-shutter-with-pure-css/
     display: none;
 }
 }
+
+
+
+
+
 
 
 

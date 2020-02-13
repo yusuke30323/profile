@@ -16,37 +16,35 @@
 
 
   <body>
-    <div id='news' class='big-bg1' style="background-image: url({% block img %}{% static 'website/img/img_2.jpg' %}{% endblock %});">
-      <header class="sub-header">
-        <h1>Yusuke Kono</h1>
-        <nav>
-          <ul class="sub-nav">
-            <li><a href="{% url 'home' %}">HOME</a></li>
-            <li><a href="{% url 'profile' %}">PROFILE</a></li>
-            <li><a href="{% url 'news' %}">PICTURES</a></li>
-            <li><a href="{% url 'contact' %}">CONTACT</a></li>
-            <li><a href='https://www.instagram.com/yusuke30323'><img src="{% static 'website/img/img_ins.png' %}" alt="" width='25' height='25'></a></li>
-          </ul>
-        </nav>
-      </header>
-      <div class="wrapper1">
-        <h2 class="page-title">{% block page_title %}{% endblock %}</h2>
-      </div>
+    <div id='news' class='big-bg1' style="background-image: url({% block img %}{% static 'website/img/img_2.jpg' %}{% endblock %});"></div>
+    <header class="sub-header">
+      <h1>Yusuke Kono</h1>
+      <nav>
+        <ul class="sub-nav">
+          <li><a href="{% url 'home' %}">HOME</a></li>
+          <li><a href="{% url 'profile' %}">PROFILE</a></li>
+          <li><a href="{% url 'news' %}">PICTURES</a></li>
+          <li><a href="{% url 'contact' %}">CONTACT</a></li>
+          <li><a href='https://www.instagram.com/yusuke30323'><img src="{% static 'website/img/img_ins.png' %}" alt="" width='25' height='25'></a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="wrapper1">
+      <h2 class="page-title">{% block page_title %}{% endblock %}</h2>
     </div>
 
-{% block content %}
+
+    {% block content %}
 
 
-{% endblock %}
+    {% endblock %}
+
 
     <div id="page_top">
       <a href="#"></a>
     </div>
-
-    <footer>
-      <div class="wrapper">
-        <p><small>&copy; 2020 Yusuke Kono</small></p>
-      </div>
-    </footer>
+    <p class='rights'>
+      <small>&copy; 2020 Yusuke Kono</small>
+    </p>
   </body>
 </html>
