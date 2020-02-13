@@ -490,10 +490,9 @@ https://digipress.info/tech/opening-loading-shutter-with-pure-css/
     margin-left: 5px;
   }
 
-
-
-
-
+  .sub-header h1 {
+    font-size: 2.0rem;
+  }
 
   .wrapper2 {
     display: block;
@@ -554,9 +553,5 @@ https://digipress.info/tech/opening-loading-shutter-with-pure-css/
     grid-template-columns: 1fr 1fr;
     gap: 5px;
   }
-
-
-
-
 
 }
