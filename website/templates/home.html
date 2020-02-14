@@ -8,6 +8,7 @@
     <title>Yusuke Kono - Website</title>
     <meta name='description' content='Yusuke Konoの自己紹介サイト'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="google-site-verification" content="2ibro9jpdBOXG4mJoplQg22GHLzNfEhTNcPJXOPCj3w" />
     <link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'>
     <link href='https://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet'>
     <link rel="stylesheet" href="{% static 'website/css/style.css' %}">
@@ -20,26 +21,26 @@
     </section>
     <section class="container">
       <div id='home' class='big-bg' style="background-image: url({% static 'website/img/img_26.jpg' %});">
-            <div class="home-page wrapper">
-              <h1>Yusuke Kono</h1>
-              <nav>
-                <ul class="main-nav">
-                  <li><a href="{% url 'home' %}">HOME</a></li>
-                  <li><a href="{% url 'profile' %}">PROFILE</a></li>
-                  <li><a href="{% url 'news' %}">PICTURES</a></li>
-                  <li><a href="{% url 'contact' %}">CONTACT</a></li>
-                </ul>
-              </nav>
-              <p class='instalogo'>
-                <a href='https://www.instagram.com/yusuke30323'>
-                  <img src="{% static 'website/img/img_ins.png' %}" alt="" width='25' height='25'>
-                </a>
-              </p>
-              <p class='rights'>
-                <small>&copy; 2020 Yusuke Kono</small>
-              </p>
-            </div>
+        <div class="home-page wrapper">
+          <h1>Yusuke Kono</h1>
+          <nav>
+            <ul class="main-nav">
+              <li><a href="{% url 'home' %}">HOME</a></li>
+              <li><a href="{% url 'profile' %}">PROFILE</a></li>
+              <li><a href="{% url 'news' %}">PICTURES</a></li>
+              <li><a href="{% url 'contact' %}">CONTACT</a></li>
+            </ul>
+          </nav>
+          <p class='instalogo'>
+            <a href='https://www.instagram.com/yusuke30323'>
+              <img src="{% static 'website/img/img_ins.png' %}" alt="" width='25' height='25'>
+            </a>
+          </p>
+          <p class='rights'>
+            <small>&copy; 2020 Yusuke Kono</small>
+          </p>
         </div>
+      </div>
     </section>
   </body>
 </html>
