@@ -14,15 +14,17 @@ def profile(request):
 def contact(request):
     if request.method == 'POST':
         your_name = request.POST['your-name']
-        your_email = request.POST['your-email']
         your_message = request.POST['your-message']
+        your_email = request.POST['your-email']
+
+        message = 'Name: ' + your_name + '\nEmail: ' + your_email + '\nMessage: ' + your_message
 
         send_mail(
-            your_name,
-            your_message,
+            'Contact',
+            message,
             your_email,
             ['ykonokono19970508@gmail.com'],
-        )
+            )
 
 
         return render(request, 'contact.html', {'your_name':your_name})
