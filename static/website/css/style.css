@@ -590,7 +590,11 @@ https://digipress.info/tech/opening-loading-shutter-with-pure-css/
   .ins {
     padding-left: 10px;
     padding-bottom: 30px;
-    padding-top: 20px;
+    padding-top: 60px;
+  }
+
+  .wrapper4 {
+    margin: 20px 10px 60px 10px;
   }
 
 }
